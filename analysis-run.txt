@@ -1,0 +1,181 @@
+First five validated rows:
+     month  district  anc_coverage  institutional_delivery  immunization  high_risk_cases
+2025-09-01 Ahmedabad          81.2                    89.3          89.7              9.0
+2025-10-01 Ahmedabad          82.5                    89.9          90.2             10.0
+2025-11-01 Ahmedabad          83.3                    90.7          90.4             12.0
+2025-12-01 Ahmedabad          84.1                    91.3          92.1             13.0
+2026-01-01 Ahmedabad          84.0                    91.9          92.1             14.0
+
+DataFrame info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 144 entries, 0 to 143
+Data columns (total 6 columns):
+ #   Column                  Non-Null Count  Dtype         
+---  ------                  --------------  -----         
+ 0   month                   144 non-null    datetime64[ns]
+ 1   district                144 non-null    string        
+ 2   anc_coverage            144 non-null    float64       
+ 3   institutional_delivery  144 non-null    float64       
+ 4   immunization            144 non-null    float64       
+ 5   high_risk_cases         144 non-null    float64       
+dtypes: datetime64[ns](1), float64(4), string(1)
+memory usage: 6.9 KB
+
+Missing values per column:
+month                     0
+district                  0
+anc_coverage              0
+institutional_delivery    0
+immunization              0
+high_risk_cases           0
+Note: SYNTHETIC DEMONSTRATION DATA: generated values plus the supplied assignment sample. Findings illustrate software behavior, not real district performance.
+
+Saved 144 insights to /workspace/scratch/6f70d672dde3/automated-insights/outputs
+insight_id        type                           indicator                      entity severity
+  INS-0001       trend                     high_risk_cases                      Rajkot     High
+  INS-0002       trend                     high_risk_cases                    Vadodara     High
+  INS-0003       trend                     high_risk_cases                    Jamnagar     High
+  INS-0004       trend                     high_risk_cases                    Vadodara     High
+  INS-0005       trend                     high_risk_cases                     Mehsana     High
+  INS-0006       trend                     high_risk_cases                     Mehsana     High
+  INS-0007       trend                     high_risk_cases                     Mehsana     High
+  INS-0008       trend                     high_risk_cases                       Anand     High
+  INS-0009       trend                     high_risk_cases                    Jamnagar     High
+  INS-0010       trend                     high_risk_cases                    Junagadh     High
+  INS-0011       trend                     high_risk_cases                   Bhavnagar     High
+  INS-0012       trend                     high_risk_cases                     Mehsana     High
+  INS-0013       trend                     high_risk_cases                   Bhavnagar     High
+  INS-0014       trend                     high_risk_cases                     Mehsana     High
+  INS-0015       trend                     high_risk_cases                       Anand     High
+  INS-0016       trend                     high_risk_cases                       Surat     High
+  INS-0017       trend                     high_risk_cases                      Rajkot     High
+  INS-0018       trend                     high_risk_cases                    Vadodara     High
+  INS-0019       trend                     high_risk_cases                       Anand     High
+  INS-0020       trend                     high_risk_cases                       Kheda     High
+  INS-0021       trend                     high_risk_cases                       Surat     High
+  INS-0022       trend                     high_risk_cases                    Vadodara     High
+  INS-0023       trend                     high_risk_cases                    Vadodara     High
+  INS-0024       trend                     high_risk_cases                       Kheda     High
+  INS-0025       trend                     high_risk_cases                      Rajkot     High
+  INS-0026       trend                     high_risk_cases                    Junagadh     High
+  INS-0027       trend                     high_risk_cases                       Surat     High
+  INS-0028       trend                     high_risk_cases                     Bharuch     High
+  INS-0029       trend                     high_risk_cases                       Anand     High
+  INS-0030       trend                     high_risk_cases                 Gandhinagar     High
+  INS-0031       trend                     high_risk_cases                    Junagadh     High
+  INS-0032       trend                     high_risk_cases                    Junagadh     High
+  INS-0033       trend                        anc_coverage                     Mehsana     High
+  INS-0034       trend                     high_risk_cases                    Vadodara     High
+  INS-0035       trend                     high_risk_cases                       Kheda     High
+  INS-0036       trend                     high_risk_cases                      Rajkot     High
+  INS-0037       trend                     high_risk_cases                     Bharuch     High
+  INS-0038       trend                     high_risk_cases                    Jamnagar     High
+  INS-0039       trend                     high_risk_cases                    Jamnagar     High
+  INS-0040       trend                     high_risk_cases                      Rajkot     High
+  INS-0041       trend                     high_risk_cases                       Anand     High
+  INS-0042       trend                     high_risk_cases                    Jamnagar     High
+  INS-0043       trend                     high_risk_cases                    Junagadh     High
+  INS-0044       trend                     high_risk_cases                   Bhavnagar     High
+  INS-0045     outlier                        anc_coverage                     Mehsana     High
+  INS-0046       trend                     high_risk_cases                     Bharuch     High
+  INS-0047       trend                     high_risk_cases                 Gandhinagar     High
+  INS-0048       trend                     high_risk_cases                       Surat     High
+  INS-0049       trend                     high_risk_cases                       Kheda     High
+  INS-0050       trend                     high_risk_cases                     Mehsana     High
+  INS-0051       trend                     high_risk_cases                       Anand     High
+  INS-0052       trend                     high_risk_cases                    Jamnagar     High
+  INS-0053       trend                     high_risk_cases                    Junagadh     High
+  INS-0054       trend                     high_risk_cases                    Junagadh     High
+  INS-0055       trend                     high_risk_cases                       Kheda     High
+  INS-0056       trend                     high_risk_cases                      Rajkot     High
+  INS-0057       trend                     high_risk_cases                    Vadodara     High
+  INS-0058       trend                     high_risk_cases                   Bhavnagar     High
+  INS-0059       trend                     high_risk_cases                    Jamnagar     High
+  INS-0060       trend                     high_risk_cases                     Mehsana     High
+  INS-0061       trend                     high_risk_cases                   Ahmedabad     High
+  INS-0062       trend                     high_risk_cases                   Ahmedabad     High
+  INS-0063       trend                     high_risk_cases                     Bharuch     High
+  INS-0064       trend                     high_risk_cases                 Gandhinagar     High
+  INS-0065       trend                     high_risk_cases                       Anand     High
+  INS-0066       trend                     high_risk_cases                   Bhavnagar     High
+  INS-0067       trend                     high_risk_cases                    Vadodara     High
+  INS-0068     outlier                        immunization                     Bharuch     High
+  INS-0069       trend                     high_risk_cases                       Anand     High
+  INS-0070       trend                        immunization                     Bharuch     High
+  INS-0071       trend                     high_risk_cases                    Jamnagar     High
+  INS-0072       trend                     high_risk_cases                      Rajkot     High
+  INS-0073       trend                     high_risk_cases                   Bhavnagar     High
+  INS-0074       trend                        anc_coverage                       Kheda     High
+  INS-0075       trend                     high_risk_cases                       Anand     High
+  INS-0076       trend                     high_risk_cases                    Jamnagar     High
+  INS-0077       trend                     high_risk_cases                    Junagadh     High
+  INS-0078       trend                     high_risk_cases                    Vadodara     High
+  INS-0079       trend                     high_risk_cases                   Ahmedabad     High
+  INS-0080       trend                     high_risk_cases                   Ahmedabad     High
+  INS-0081       trend                     high_risk_cases                 Gandhinagar     High
+  INS-0082       trend                     high_risk_cases                       Anand     High
+  INS-0083       trend                     high_risk_cases                     Bharuch     High
+  INS-0084       trend                     high_risk_cases                 Gandhinagar     High
+  INS-0085       trend                     high_risk_cases                   Ahmedabad     High
+  INS-0086       trend                     high_risk_cases                   Bhavnagar     High
+  INS-0087       trend                     high_risk_cases                   Ahmedabad     High
+  INS-0088       trend                     high_risk_cases                    Junagadh     High
+  INS-0089       trend                     high_risk_cases                       Kheda     High
+  INS-0090       trend                     high_risk_cases                     Mehsana     High
+  INS-0091       trend                        immunization                     Bharuch   Medium
+  INS-0092       trend                        anc_coverage                   Ahmedabad   Medium
+  INS-0093       trend                     high_risk_cases                   Ahmedabad   Medium
+  INS-0094       trend                        anc_coverage                       Kheda   Medium
+  INS-0095       trend                     high_risk_cases                       Kheda   Medium
+  INS-0096       trend                     high_risk_cases                     Mehsana   Medium
+  INS-0097       trend                     high_risk_cases                    Vadodara   Medium
+  INS-0098     outlier                     high_risk_cases                    Jamnagar   Medium
+  INS-0099       trend                     high_risk_cases                 Gandhinagar   Medium
+  INS-0100       trend                     high_risk_cases                    Jamnagar   Medium
+  INS-0101       trend                     high_risk_cases                      Rajkot   Medium
+  INS-0102       trend                     high_risk_cases                       Surat   Medium
+  INS-0103       trend                     high_risk_cases                   Bhavnagar   Medium
+  INS-0104       trend                     high_risk_cases                   Bhavnagar   Medium
+  INS-0105     outlier                        anc_coverage                       Kheda      Low
+  INS-0106       trend                     high_risk_cases                 Gandhinagar      Low
+  INS-0107       trend                     high_risk_cases                       Surat      Low
+  INS-0108       trend                     high_risk_cases                    Vadodara      Low
+  INS-0109       trend                     high_risk_cases                     Bharuch      Low
+  INS-0110       trend                     high_risk_cases                      Rajkot      Low
+  INS-0111     outlier              institutional_delivery                   Bhavnagar      Low
+  INS-0112     outlier                        anc_coverage                   Ahmedabad      Low
+  INS-0113     outlier              institutional_delivery                       Anand      Low
+  INS-0114       trend                     high_risk_cases                 Gandhinagar      Low
+  INS-0115       trend                     high_risk_cases                       Kheda      Low
+  INS-0116       trend                     high_risk_cases                     Mehsana      Low
+  INS-0117     outlier                        anc_coverage                       Anand      Low
+  INS-0118     outlier              institutional_delivery                       Anand      Low
+  INS-0119     outlier              institutional_delivery                   Bhavnagar      Low
+  INS-0120       trend                     high_risk_cases                   Bhavnagar      Low
+  INS-0121     outlier                        immunization                   Bhavnagar      Low
+  INS-0122     outlier              institutional_delivery                       Anand      Low
+  INS-0123     outlier              institutional_delivery                       Anand      Low
+  INS-0124 correlation institutional_delivery:immunization Selected districts (pooled)      Low
+  INS-0125     outlier                        anc_coverage                       Anand      Low
+  INS-0126     outlier                        immunization                   Bhavnagar      Low
+  INS-0127       trend                     high_risk_cases                   Ahmedabad      Low
+  INS-0128       trend                     high_risk_cases                       Kheda      Low
+  INS-0129     outlier              institutional_delivery                       Anand      Low
+  INS-0130     outlier                     high_risk_cases                     Mehsana      Low
+  INS-0131     outlier              institutional_delivery                       Anand      Low
+  INS-0132     outlier              institutional_delivery                   Bhavnagar      Low
+  INS-0133     outlier                     high_risk_cases                   Bhavnagar      Low
+  INS-0134     outlier                        immunization                   Bhavnagar      Low
+  INS-0135     outlier              institutional_delivery                       Anand      Low
+  INS-0136     outlier              institutional_delivery                       Anand      Low
+  INS-0137     outlier              institutional_delivery                       Anand      Low
+  INS-0138     outlier                        anc_coverage                       Anand      Low
+  INS-0139     outlier              institutional_delivery                   Bhavnagar      Low
+  INS-0140     outlier                        anc_coverage                       Anand      Low
+  INS-0141     outlier                        immunization                   Bhavnagar      Low
+  INS-0142     outlier              institutional_delivery                       Anand      Low
+  INS-0143     outlier              institutional_delivery                   Bhavnagar      Low
+  INS-0144       trend                     high_risk_cases                       Kheda      Low
+Note: SYNTHETIC DEMONSTRATION DATA: generated values plus the supplied assignment sample. Findings illustrate software behavior, not real district performance.
+Note: Pooled correlations mix between-district and time variation; repeated rows from a district are not independent. Correlation does not establish causation.
+Note: Severity is relative review priority, not clinical risk or statistical confidence. high_risk_cases is a raw count; exposure denominators are unavailable.

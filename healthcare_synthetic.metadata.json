@@ -1,0 +1,263 @@
+{
+  "name": "Synthetic demonstration with preserved assignment sample",
+  "data_type": "synthetic_with_assignment_sample",
+  "disclaimer": "Demonstration data, not observed healthcare statistics. Supplied sample rows are illustrative and not independently verified real observations.",
+  "rows": 144,
+  "districts": 12,
+  "months_per_district": 12,
+  "start_month": "2025-09",
+  "end_month": "2026-08",
+  "assignment_rows": 12,
+  "generated_rows": 132,
+  "source": "Assignment 4 - Automated Insight Generation, PDF section 2.1",
+  "source_csv_sha256": "d75f952e08f6afc5e3da4ddaaa282848a03c5bdb25a7389d3501d08145f2563e",
+  "generation_settings": {
+    "seed": 42,
+    "months": 12,
+    "monthly_noise": 0.8,
+    "persistence": 0.5,
+    "annual_wave": 0.7,
+    "monthly_drift_min": -0.1,
+    "monthly_drift_max": 0.2
+  },
+  "district_profiles": [
+    {
+      "district": "Ahmedabad",
+      "baseline_origin": "First supplied month",
+      "coverage_baseline": {
+        "anc_coverage": 85.0,
+        "institutional_delivery": 91.0,
+        "immunization": 93.0
+      },
+      "monthly_drift": {
+        "anc_coverage": 0.13218681456678902,
+        "institutional_delivery": 0.03166353192561572,
+        "immunization": 0.1575793759734148
+      },
+      "case_mean": 10.0,
+      "wave_phase": 4.381692553882582
+    },
+    {
+      "district": "Anand",
+      "baseline_origin": "Generated around sample baseline",
+      "coverage_baseline": {
+        "anc_coverage": 92.81801353957302,
+        "institutional_delivery": 95.32008566754205,
+        "immunization": 96.69856217904987
+      },
+      "monthly_drift": {
+        "anc_coverage": -0.019907301072431924,
+        "institutional_delivery": -0.0005293007972343305,
+        "immunization": 0.05620172074146135
+      },
+      "case_mean": 11.734894010569537,
+      "wave_phase": 2.7577620385414057
+    },
+    {
+      "district": "Bharuch",
+      "baseline_origin": "Generated around sample baseline",
+      "coverage_baseline": {
+        "anc_coverage": 80.38965594701833,
+        "institutional_delivery": 86.89720834783839,
+        "immunization": 89.14461188791465
+      },
+      "monthly_drift": {
+        "anc_coverage": -0.030207777410069886,
+        "institutional_delivery": 0.05923087717971606,
+        "immunization": 0.0818047462100033
+      },
+      "case_mean": 14.968170883251616,
+      "wave_phase": 5.45216464483282
+    },
+    {
+      "district": "Bhavnagar",
+      "baseline_origin": "First supplied month",
+      "coverage_baseline": {
+        "anc_coverage": 77.0,
+        "institutional_delivery": 82.0,
+        "immunization": 87.0
+      },
+      "monthly_drift": {
+        "anc_coverage": 0.15456814663208737,
+        "institutional_delivery": 0.09577620216803062,
+        "immunization": 0.14131754838412325
+      },
+      "case_mean": 17.0,
+      "wave_phase": 3.347192777783526
+    },
+    {
+      "district": "Gandhinagar",
+      "baseline_origin": "Generated around sample baseline",
+      "coverage_baseline": {
+        "anc_coverage": 84.89910598784347,
+        "institutional_delivery": 89.71844334665509,
+        "immunization": 93.48626378345053
+      },
+      "monthly_drift": {
+        "anc_coverage": -0.09130014903865918,
+        "institutional_delivery": -0.02775158258765588,
+        "immunization": -0.0570934374500095
+      },
+      "case_mean": 15.970333988966253,
+      "wave_phase": 4.880576912045492
+    },
+    {
+      "district": "Jamnagar",
+      "baseline_origin": "Generated around sample baseline",
+      "coverage_baseline": {
+        "anc_coverage": 84.60349523072574,
+        "institutional_delivery": 88.20065051236817,
+        "immunization": 92.66558879237174
+      },
+      "monthly_drift": {
+        "anc_coverage": 0.17631715918855753,
+        "institutional_delivery": 0.051089877554929775,
+        "immunization": 0.05608253442217073
+      },
+      "case_mean": 15.864028867237078,
+      "wave_phase": 5.025734012559037
+    },
+    {
+      "district": "Junagadh",
+      "baseline_origin": "Generated around sample baseline",
+      "coverage_baseline": {
+        "anc_coverage": 85.32993204326617,
+        "institutional_delivery": 90.06561143732155,
+        "immunization": 94.15698035356668
+      },
+      "monthly_drift": {
+        "anc_coverage": 0.07954315746732099,
+        "institutional_delivery": -0.09780566311209532,
+        "immunization": -0.016593368019755847
+      },
+      "case_mean": 10.075350724207862,
+      "wave_phase": 4.417289542134825
+    },
+    {
+      "district": "Kheda",
+      "baseline_origin": "Generated around sample baseline",
+      "coverage_baseline": {
+        "anc_coverage": 83.11152073229897,
+        "institutional_delivery": 87.01989205286073,
+        "immunization": 90.60067646922225
+      },
+      "monthly_drift": {
+        "anc_coverage": 0.01823773315342926,
+        "institutional_delivery": 0.024982889920744378,
+        "immunization": -0.09950178769755985
+      },
+      "case_mean": 10.020715687836386,
+      "wave_phase": 0.7041589084291816
+    },
+    {
+      "district": "Mehsana",
+      "baseline_origin": "First supplied month",
+      "coverage_baseline": {
+        "anc_coverage": 84.0,
+        "institutional_delivery": 89.0,
+        "immunization": 92.0
+      },
+      "monthly_drift": {
+        "anc_coverage": 0.08262233866947405,
+        "institutional_delivery": 0.07429681212441525,
+        "immunization": 0.022741993287439158
+      },
+      "case_mean": 11.0,
+      "wave_phase": 3.781062304299568
+    },
+    {
+      "district": "Rajkot",
+      "baseline_origin": "First supplied month",
+      "coverage_baseline": {
+        "anc_coverage": 79.0,
+        "institutional_delivery": 85.0,
+        "immunization": 89.0
+      },
+      "monthly_drift": {
+        "anc_coverage": 0.18567491475370504,
+        "institutional_delivery": 0.04460922787590518,
+        "immunization": 0.1859616574715567
+      },
+      "case_mean": 15.0,
+      "wave_phase": 1.027783834622475
+    },
+    {
+      "district": "Surat",
+      "baseline_origin": "First supplied month",
+      "coverage_baseline": {
+        "anc_coverage": 81.0,
+        "institutional_delivery": 87.0,
+        "immunization": 91.0
+      },
+      "monthly_drift": {
+        "anc_coverage": 0.10035474765439592,
+        "institutional_delivery": -0.061191158962517665,
+        "immunization": -0.017454242319486002
+      },
+      "case_mean": 13.0,
+      "wave_phase": 0.8711918935082088
+    },
+    {
+      "district": "Vadodara",
+      "baseline_origin": "First supplied month",
+      "coverage_baseline": {
+        "anc_coverage": 90.0,
+        "institutional_delivery": 93.0,
+        "immunization": 96.0
+      },
+      "monthly_drift": {
+        "anc_coverage": -0.08457425363292119,
+        "institutional_delivery": 0.10167932936703347,
+        "immunization": 0.006001308520540344
+      },
+      "case_mean": 7.0,
+      "wave_phase": 4.947781447019363
+    }
+  ],
+  "scenarios": [
+    {
+      "district": "Bharuch",
+      "month": "2026-01",
+      "indicator": "immunization",
+      "description": "Temporary coverage dip",
+      "generated_baseline": 89.8,
+      "final_value": 71.8,
+      "change": -18.0
+    },
+    {
+      "district": "Jamnagar",
+      "month": "2026-03",
+      "indicator": "high_risk_cases",
+      "description": "Temporary case-count spike",
+      "generated_baseline": 14.0,
+      "final_value": 36,
+      "change": 22.0
+    },
+    {
+      "district": "Kheda",
+      "month": "2026-04",
+      "indicator": "anc_coverage",
+      "description": "Temporary ANC reporting dip",
+      "generated_baseline": 83.1,
+      "final_value": 67.1,
+      "change": -16.0
+    }
+  ],
+  "units": {
+    "anc_coverage": "percent, 0 to 100",
+    "institutional_delivery": "percent, 0 to 100",
+    "immunization": "percent, 0 to 100",
+    "high_risk_cases": "whole count"
+  },
+  "scope_note": "Small illustrative reporting counts matching the supplied sample scale, not a calibrated model of district population totals.",
+  "notes": [
+    "The seed fixes a reproducible draw; it was not selected by searching for stronger correlations.",
+    "The annual wave is a simulation device, not an estimated seasonal effect.",
+    "Generated coverage correlations partly reflect the shared district baseline and noise by construction.",
+    "No coverage denominator, patient population, or clinical target is inferred.",
+    "Scenario changes are recorded only in metadata, never passed as labels to the detector.",
+    "Supplied rows are preserved exactly; their boundary with generated history can produce additional changes.",
+    "Meeting size recommendations does not establish real-world statistical validity or evaluator acceptance of synthetic data."
+  ],
+  "csv_sha256": "080c1736351b84d19653dcbcf7e0ad08f3f8c0fabab524b6dacbcd46e513afc2"
+}

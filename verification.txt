@@ -1,0 +1,18 @@
+............................................................             [100%]
+60 passed in 4.50s
+
+Environment: Python 3.12.14
+pandas==2.2.3
+numpy==2.3.5
+streamlit==1.55.0
+plotly==6.6.0
+pytest==9.0.2
+
+CLI reports exported for expanded synthetic and original sample datasets.
+144-row CSV: 12 districts, 12 consecutive months each, no missing values or duplicate keys.
+All 12 supplied rows preserved exactly; 132 additional rows generated.
+Generator reproducibility, CSV checksum, provenance, and dataset switching verified.
+All three disclosed synthetic scenarios detected; no precision/recall claim is made.
+CSV authoring round-trip and tabular preview checked.
+Streamlit AppTest verified chart creation and widget behavior; no browser visual inspection.
+Tests validate software behavior, not real-world clinical/statistical validity.
